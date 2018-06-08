@@ -9,5 +9,6 @@ COPY run.sh /
 COPY default.conf.tmpl /app/default.conf.tmpl
 
 ENV REDIRECT **None**
+ENV PORT 80
 
 CMD ["/run.sh"]

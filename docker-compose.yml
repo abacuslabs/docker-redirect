@@ -1,6 +1,0 @@
-web:
-  build: .
-  ports:
-    - "3000:80"
-  environment:
-    - REDIRECT=https://www.mydomain.com
